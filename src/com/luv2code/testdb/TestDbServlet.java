@@ -26,9 +26,9 @@ public class TestDbServlet extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		//setup connection variables
-		String user = ":)";
-		String pass = ":)";
-		String jdbcUrl = ":)";
+		String user = "springstudent";
+		String pass = "springstudent";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSLL=false";
 		String driver = "com.mysql.jdbc.Driver";
 		
 		try {
